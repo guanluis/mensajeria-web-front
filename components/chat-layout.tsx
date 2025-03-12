@@ -14,8 +14,8 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Search, LogOut, Send, ImageIcon, User, MessageCircle } from "lucide-react"
 import ContactList from "./contact-list"
 import MessageList from "./message-list"
-import { useContactStore } from "@/lib/stores/contact-store"
-import { useMessageStore } from "@/lib/stores/message-store"
+import { useContactStore } from "@/lib/contact-store"
+import { useMessageStore } from "@/lib/message-store"
 import { fetchContacts, fetchMessages, sendMessage } from "@/lib/api"
 
 interface ChatLayoutProps {
